@@ -28,7 +28,7 @@ DEPEND="
 	sys-libs/pam
 	virtual/libcrypt
 	x11-apps/bdftopcf
-	x11-apps/mkfontdir
+	x11-apps/mkfontscale
 	x11-apps/sessreg
 	x11-apps/xrdb
 	x11-libs/libICE

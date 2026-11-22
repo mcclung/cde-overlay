@@ -104,3 +104,8 @@ src_install() {
 	keepdir /var/dt/appconfig/appmanager
 	dodoc COPYING HISTORY README.md
 }
+
+src_compile() {
+	export IFFEFLAGS="-d1"
+	default
+}

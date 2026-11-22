@@ -76,11 +76,11 @@ BDEPEND="
 	dev-build/libtool
 "
 
-S="${WORKDIR}/cde-${PV}"
+S="${WORKDIR}/cde-${PV}/cde"
 
 src_prepare() {
-	eautoreconf
 	default
+	eautoreconf
 }
 
 src_configure() {

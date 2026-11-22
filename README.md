@@ -30,11 +30,11 @@ Sync the repository:
 emaint sync -r cde-overlay
 ```
 
-The ebuild is currently unkeyworded, so accept it explicitly:
+The ebuild is currently keyworded unstable for amd64, so accept it explicitly:
 
 ```sh
 mkdir -p /etc/portage/package.accept_keywords
-printf '%s\n' 'x11-wm/cde **' \
+printf '%s\n' 'x11-wm/cde ~amd64' \
 	> /etc/portage/package.accept_keywords/cde-overlay
 ```
 

@@ -8,6 +8,7 @@ SRC_URI="https://github.com/cdesktopenv/cde/archive/refs/tags/${PV}.tar.gz -> ${
 
 LICENSE="LGPL-2"
 SLOT="0"
+KEYWORDS="~amd64"
 IUSE="+docs"
 
 DEPEND="

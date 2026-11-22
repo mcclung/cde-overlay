@@ -22,13 +22,7 @@ auto-sync = yes
 priority = 50
 ```
 
-This repository is private. For Git-over-SSH authentication, use the
-following `sync-uri` instead and make sure the account used for syncing
-(normally `root`) has an SSH key authorized on GitHub:
-
-```ini
-sync-uri = git+ssh://git@github.com/mcclung/cde-overlay.git
-```
+The repository is public, so no GitHub credentials are required.
 
 Sync the repository:
 

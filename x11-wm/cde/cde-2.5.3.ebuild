@@ -80,6 +80,11 @@ S="${WORKDIR}/cde-${PV}/cde"
 
 src_prepare() {
 	default
+
+	sed -i 's/\<nullptr\>/null_ptr/g' \
+		programs/dtksh/ksh93/src/cmd/ksh93/sh/xec.c \
+		|| die "Failed to rename nullptr in ksh93"
+
 	eautoreconf
 }
 

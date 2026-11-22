@@ -1,6 +1,6 @@
 EAPI=8
 
-inherit autotools
+inherit autotools flag-o-matic
 
 DESCRIPTION="The Common Desktop Environment"
 HOMEPAGE="https://github.com/cdesktopenv/cde"
@@ -84,6 +84,8 @@ src_prepare() {
 }
 
 src_configure() {
+	append-cflags -std=gnu17
+
 	econf \
 		--prefix=/usr \
 		--with-cde-data-dir=/usr/share/cde \

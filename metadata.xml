@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "https://www.gentoo.org/dtd/repositories.dtd">
+<repositories version="1.0">
+	<repo quality="experimental">
+		<name>cde-overlay</name>
+		<description>Gentoo overlay for the Common Desktop Environment</description>
+		<homepage>https://github.com/mcclung/cde-overlay</homepage>
+		<source type="git">https://github.com/mcclung/cde-overlay.git</source>
+		<feed>https://github.com/mcclung/cde-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>

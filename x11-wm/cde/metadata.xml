@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>mcclung@users.noreply.github.com</email>
+		<name>mcclung</name>
+	</maintainer>
+	<longdescription lang="en">
+		The Common Desktop Environment (CDE), a classic UNIX desktop
+		environment originally developed by a collaboration of UNIX vendors.
+	</longdescription>
+	<use>
+		<flag name="docs">Build the CDE help and dtinfo documentation.</flag>
+	</use>
+</pkgmetadata>

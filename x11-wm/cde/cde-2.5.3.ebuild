@@ -15,8 +15,8 @@ DEPEND="
 	app-shells/ksh
 	dev-lang/perl
 	dev-lang/tcl
-	dev-libs/libtirpc
-	dev-libs/lmdb
+	net-libs/libtirpc
+	dev-db/lmdb
 	dev-libs/openssl
 	media-libs/libjpeg-turbo
 	net-nds/rpcbind
@@ -48,8 +48,8 @@ DEPEND="
 RDEPEND="
 	app-shells/ksh
 	dev-lang/tcl
-	dev-libs/libtirpc
-	dev-libs/lmdb
+	net-libs/libtirpc
+	dev-db/lmdb
 	media-libs/libjpeg-turbo
 	sys-libs/libutempter
 	sys-libs/pam

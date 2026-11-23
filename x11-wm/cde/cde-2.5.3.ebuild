@@ -93,10 +93,6 @@ src_configure() {
 
 	econf \
 		--prefix=/usr \
-		--with-cde-data-dir=/usr/share/cde \
-		--with-cde-config-dir=/etc/dt \
-		--with-cde-state-dir=/var/dt \
-		--with-cde-libexec-dir=/usr/libexec/cde \
 		$(use_enable docs)
 }
 
